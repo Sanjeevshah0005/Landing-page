@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=playfair+display:wght@4');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'playfair Display', serif,sans-serif;
+}
+.wrapper{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("image.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+ul{
+    margin-right: 50px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 30px;
+}
+ul li a:hover{
+    color: #25d55d;
+    transition: 0.5s ease;
+}
+.logo{
+    margin-left: 50px;
+}
+.logo h2{
+    font-size: 35px;
+    color: red;
+}
+.hero-section{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-section h1{
+    font-size: 80px;
+    font-family: serif;
+    color: #fff;
+    letter-spacing: 1;
+    margin-bottom: 25px;
+}
+.hero-section span{
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-section p{
+    font-family: serif;
+    font-size: 25px;
+    color: white;
+}
+.hero-section .button{
+    margin-top: 50px;
+}
+.hero-section .button .btn1{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 19px;
+    padding: 10px 5px;
+    margin: 0px 5px;
+    letter-spacing: 1.5px;
+    transition: 0.5s ease;
+}
+.hero-section .button .btn1:hover{
+    background-color: green;
+}
+.hero-section .button .btn2{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 19px;
+    padding: 10px 5px;
+    margin: 0px 5px;
+    letter-spacing: 1.5px;
+    transition: 0.5s ease;
+}
+.hero-section .button .btn2:hover{
+    background-color: #3f9500;
+}
+
